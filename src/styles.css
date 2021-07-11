@@ -1,15 +1,17 @@
+html,
 body {
-  background-color: #2a385c;
-  background-image: linear-gradient(
-    320deg,
-    hsl(215, 10%, 12%) 0% /* down */,
-    hsl(215, 19%, 24%) /* up */ 100%
-  );
   height: 100vh;
-  color: white;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
 }
 
 .App {
+  background-color: #2a385c;
+  background-image: linear-gradient(
+    320deg,
+    rgba(28, 30, 34, 0),
+    rgba(50, 59, 73, 1)
+  );
   font-family: sans-serif;
   text-align: center;
 }

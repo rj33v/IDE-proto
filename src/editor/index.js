@@ -11,37 +11,37 @@ import "./editor.scss";
 const DATA = [
   {
     id: "af1",
-    label: "Unselected",
+    label: "Unselected filters",
     items: [
-      { id: "af2", label: "Item 1 incoming" },
-      { id: "af3", label: "Item 2 inc" }
+      { id: "af2", label: "Item 1" },
+      { id: "af3", label: "Item 2" }
     ],
     tint: 1
   },
   {
     id: "af4",
-    label: "Closing leads",
+    label: "Geography",
     items: [
-      { id: "af5", label: "Item 1" },
-      { id: "af6", label: "Item 2" }
+      { id: "af5", label: "Item 3" },
+      { id: "af6", label: "Item 4" }
     ],
     tint: 2
   },
   {
     id: "af7",
-    label: "On hold",
+    label: "Company",
     items: [
-      { id: "af8", label: "Item 1" },
-      { id: "af9", label: "Item 2" }
+      { id: "af8", label: "Item 5" },
+      { id: "af9", label: "Item 6" }
     ],
     tint: 3
   },
   {
     id: "af71",
-    label: "Onsaaashold",
+    label: "City",
     items: [
-      { id: "af81", label: "Item 1111" },
-      { id: "af91", label: "Item 2111xt" }
+      { id: "af81", label: "Item 7" },
+      { id: "af91", label: "Item 8" }
     ],
     tint: 4
   }

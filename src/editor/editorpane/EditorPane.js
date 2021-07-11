@@ -4,13 +4,16 @@ import EditorContentContext from "../../context/EditorContentContext";
 //const { DragDropContext, Draggable, Droppable } = "react-beautiful-dnd";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
+//Styles
+import "../editorpane/editorpane.scss";
+
 const EditorPane = (props) => {
   const { items, setItems } = useContext(EditorContentContext);
   const { groups, setGroups } = useContext(EditorContentContext);
   const { buildAndSave } = props;
 
   return (
-    <div className="pane">
+    <div className="pane editorpane">
       <h3>Editor Pane</h3>
 
       <DragDropContext
